@@ -9,7 +9,8 @@ Instruções:
 num=int(input('Digite um número inteiro de 3 dígitos: '))
 
 # Separa o digito da centena - divisão truncada por 100
-dig_centena = num//5
+
+dig_centena = num//100
 
 # Obtem o resto da divisão por 100
 resto = num%100
