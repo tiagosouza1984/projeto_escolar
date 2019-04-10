@@ -1,6 +1,6 @@
 # Caso seja resolvido em duplas, coloque os nomes da dupla aqui:
-# Nome1: 
-# Nome2:
+# Nome1: Tiago da Silva Souza
+# Nome2: Eduardo de Oliveira Costa
 
 # Este exercício é sobre o uso da estrutura de seleção (if/elif/else),
 # portanto NÃO é para ser usado nenhum comando de laço de repetição (while).
