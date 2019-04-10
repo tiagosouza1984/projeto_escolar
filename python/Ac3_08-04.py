@@ -58,7 +58,5 @@ if value > 0 and value <= 1000000.00:
         value = round(value%0.05, 2)
         print(str(int(N0_05))+" moeda(s) de R$ 0.05")
     if value >= 0.01 and value < 0.05:
-        N0_01 = value//0.01
+        N0_01 = value/0.01
         print(str(int(N0_01))+" moeda(s) de R$ 0.01")
-else:
-  print("exit")
