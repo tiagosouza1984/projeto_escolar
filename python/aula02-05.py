@@ -5,7 +5,7 @@ n1 = int(input(""))
 n2 = int(input(""))
 flag = False
 count = 1
-#checa inteiros n1 e n2 entre 1 e 9
+#checa inteiros n1 e n2 entre 1 e 9.
 for x in range (n1,n2):
   print("Tabuada do {}:".format(n1))
   for x in range(1,10):
