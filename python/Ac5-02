@@ -1,0 +1,33 @@
+
+selo50 = 0
+selo20 = 0
+flag = False
+"""
+while not flag:
+    selo_value = float(input(""))
+    selo_value = round((selo_value/0.10))*10 #transforma float recebido em inteiro para facilitar o cálculo
+    if selo_value % 10 == 0:
+        if selo_value >= 70 and selo_value <= 620: 
+            selo50 = selo_value//50
+            selo20 = (selo_value%50)//20
+            print("Compre {0} selo(s) de R$ 0.50 e {1} selo(s) de R$ 0.20!".format(selo50,selo20))
+            flag = True
+        else:
+            print("Preço inválido, refaça a leitura do pacote.")
+            flag = True
+   
+    else:
+            print("Preço inválido, refaça a leitura do pacote.")
+            flag = True 
+  
+"""
+selo_value = 280
+check = False
+while (selo_value%50) != 0 and (selo_value%50)/20 !=0:
+    selo_value = selo_value-1
+    print(selo_value)
+ 
+
+    
+
+
